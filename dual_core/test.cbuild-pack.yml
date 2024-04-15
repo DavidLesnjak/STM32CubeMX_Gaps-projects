@@ -1,0 +1,11 @@
+cbuild-pack:
+  resolved-packs:
+    - resolved-pack: ARM::CMSIS@6.0.0
+      selected-by-pack:
+        - ARM::CMSIS
+    - resolved-pack: ARM::CMSIS-Compiler@2.0.0
+      selected-by-pack:
+        - ARM::CMSIS-Compiler
+    - resolved-pack: Keil::STM32H7xx_DFP@4.0.0-extgen2
+      selected-by-pack:
+        - Keil::STM32H7xx_DFP@4.0.0-extgen2

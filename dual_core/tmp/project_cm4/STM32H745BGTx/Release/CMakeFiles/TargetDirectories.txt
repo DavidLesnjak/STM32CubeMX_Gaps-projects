@@ -1,0 +1,4 @@
+D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/dual_core/tmp/project_cm4/STM32H745BGTx/Release/CMakeFiles/database.dir
+D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/dual_core/tmp/project_cm4/STM32H745BGTx/Release/CMakeFiles/project_cm4.dir
+D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/dual_core/tmp/project_cm4/STM32H745BGTx/Release/CMakeFiles/edit_cache.dir
+D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/dual_core/tmp/project_cm4/STM32H745BGTx/Release/CMakeFiles/rebuild_cache.dir

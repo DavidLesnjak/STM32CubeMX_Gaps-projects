@@ -1,0 +1,20 @@
+build-idx:
+  generated-by: csolution version 2.3.0-dev0
+  cdefault: cdefault.yml
+  csolution: test.csolution.yml
+  cprojects:
+    - cproject: prj_cm4/project_cm4.cproject.yml
+    - cproject: prj_cm7/project_cm7.cproject.yml
+  cbuilds:
+    - cbuild: prj_cm4/project_cm4.Debug+STM32H745BGTx.cbuild.yml
+      project: project_cm4
+      configuration: .Debug+STM32H745BGTx
+    - cbuild: prj_cm4/project_cm4.Release+STM32H745BGTx.cbuild.yml
+      project: project_cm4
+      configuration: .Release+STM32H745BGTx
+    - cbuild: prj_cm7/project_cm7.Debug+STM32H745BGTx.cbuild.yml
+      project: project_cm7
+      configuration: .Debug+STM32H745BGTx
+    - cbuild: prj_cm7/project_cm7.Release+STM32H745BGTx.cbuild.yml
+      project: project_cm7
+      configuration: .Release+STM32H745BGTx

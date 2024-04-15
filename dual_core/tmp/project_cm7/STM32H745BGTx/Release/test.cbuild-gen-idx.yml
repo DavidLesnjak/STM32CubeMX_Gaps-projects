@@ -1,0 +1,16 @@
+build-gen-idx:
+  generated-by: csolution version 2.3.0-dev0
+  generators:
+    - id: CubeMX
+      output: D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/dual_core/STM32CubeMX/STM32H745BGTx
+      device: STM32H745BGTx
+      project-type: multi-core
+      cbuild-gens:
+        - cbuild-gen: D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/dual_core/tmp/project_cm4/STM32H745BGTx/Release/project_cm4.Release+STM32H745BGTx.cbuild-gen.yml
+          project: project_cm4
+          configuration: .Release+STM32H745BGTx
+          for-project-part: CM4
+        - cbuild-gen: D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/dual_core/tmp/project_cm7/STM32H745BGTx/Release/project_cm7.Release+STM32H745BGTx.cbuild-gen.yml
+          project: project_cm7
+          configuration: .Release+STM32H745BGTx
+          for-project-part: CM7

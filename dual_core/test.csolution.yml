@@ -1,0 +1,25 @@
+solution:
+
+  created-for: CMSIS-Toolbox@2.0.0
+  cdefault:
+
+  packs:
+    - pack: Keil::STM32H7xx_DFP@4.0.0-extgen2
+    - pack: ARM::CMSIS
+    - pack: ARM::CMSIS-Compiler
+
+  target-types:
+    - type: STM32H745BGTx
+      device: STM32H745BGTx
+
+  build-types:
+    - type: Debug
+      debug: on
+      optimize: none
+    - type: Release
+      debug: off
+      optimize: balanced
+
+  projects:
+    - project: ./prj_cm4/project_cm4.cproject.yml
+    - project: ./prj_cm7/project_cm7.cproject.yml

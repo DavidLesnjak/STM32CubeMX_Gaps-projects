@@ -1,0 +1,5 @@
+load STM32H745BGTx
+project name STM32CubeMX
+project toolchain "MDK-ARM V5"
+project path "D:\GitHub\DavidLesnjak\STM32CubeMX_Gaps-projects\dual_core\STM32CubeMX\STM32H745BGTx"
+SetCopyLibrary "copy only"
