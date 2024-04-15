@@ -1,0 +1,24 @@
+build-idx:
+  generated-by: csolution version 2.3.0-dev0
+  cdefault: cdefault.yml
+  csolution: test.csolution.yml
+  cprojects:
+    - cproject: prj_secure/project_s.cproject.yml
+    - cproject: prj_nonsecure/project_ns.cproject.yml
+  cbuilds:
+    - cbuild: prj_secure/project_s.Debug+Board.cbuild.yml
+      project: project_s
+      configuration: .Debug+Board
+    - cbuild: prj_secure/project_s.Release+Board.cbuild.yml
+      project: project_s
+      configuration: .Release+Board
+    - cbuild: prj_nonsecure/project_ns.Debug+Board.cbuild.yml
+      project: project_ns
+      configuration: .Debug+Board
+      depends-on:
+        - project_s.Debug+Board
+    - cbuild: prj_nonsecure/project_ns.Release+Board.cbuild.yml
+      project: project_ns
+      configuration: .Release+Board
+      depends-on:
+        - project_s.Release+Board

@@ -1,0 +1,4 @@
+D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/secure_nonsecure/tmp/project_ns/Board/Release/CMakeFiles/database.dir
+D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/secure_nonsecure/tmp/project_ns/Board/Release/CMakeFiles/project_ns.dir
+D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/secure_nonsecure/tmp/project_ns/Board/Release/CMakeFiles/edit_cache.dir
+D:/GitHub/DavidLesnjak/STM32CubeMX_Gaps-projects/secure_nonsecure/tmp/project_ns/Board/Release/CMakeFiles/rebuild_cache.dir
